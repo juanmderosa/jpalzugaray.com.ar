@@ -1922,6 +1922,38 @@ button.submit_btn {
 .dark .t1_style {
   color: #fff;
 }
+
+@media (max-width: 767px) {
+  .navbar-toggle {
+    display: block;
+    float: right;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 10px;
+    line-height: 1;
+    background: transparent;
+    border: 0;
+  }
+
+  .navbar-toggle:before {
+    content: none;
+  }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #028655;
+    border-radius: 1px;
+  }
+
+  .navbar-collapse.in {
+    display: block;
+    clear: both;
+  }
+}
 .intro_1.dark p {
   color: #aaa;
 }
