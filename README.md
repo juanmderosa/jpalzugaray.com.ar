@@ -1,0 +1,1 @@
+# Traspaso de Wordpress a sitio estático para web de jpalzugaray.com.ar
